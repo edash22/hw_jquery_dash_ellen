@@ -5,5 +5,6 @@ $( document ).ready(function() {
         fontWeight: "bold",
         backgroundColor: "#ddd"
     };
-    $( paragraphs ).css( newStyle );
+
+    paragraphs.css( newStyle );
 });
